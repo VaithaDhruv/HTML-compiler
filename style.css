@@ -1,0 +1,44 @@
+#outputArea{
+    border: 4px ridge rgb(5, 42, 66);
+    width: 100%;
+    max-width: 1000px;
+    height:546px;
+    background-color:rgb(200, 219, 243);
+    margin-left: 80px;
+}
+#inputArea{
+    border: 4px ridge rgb(5, 42, 66);
+    width: 100%;
+    max-width: 1000px;
+    height: 546px;
+    background-color:rgb(200, 219, 243);
+}
+#sub-main{
+    display: flex;
+    gap: 10px;
+}
+h1{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(74, 118, 165);
+}
+#main{
+    background-image:repeating-radial-gradient(
+       rgb(235, 243, 248),
+       rgb(198, 223, 240),
+       rgb(202, 227, 243),
+       rgb(177, 219, 247),
+       rgb(30, 112, 167)
+    );
+    padding: 15px;
+    border-radius:15px;
+}
+button{
+    padding: 7px;
+    width:100px;
+    background-color: rgb(5, 42, 66);
+    color:antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    border-width:0px;
+    border-radius:10px;
+}
